@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/id_tvMsgContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sms_item"/>
+
+    <Button
+        android:id="@+id/id_btnSendMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="0dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:minWidth="0dp"
+        android:text="发送"
+        android:layout_gravity="right"
+        android:drawableLeft="@mipmap/icon_to_send"/>
+</LinearLayout>
